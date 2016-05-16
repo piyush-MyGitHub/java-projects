@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="10" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Orion1CLS" duration-ms="186938" started-at="2016-05-16T06:20:54Z" finished-at="2016-05-16T06:24:01Z">
+    <groups>
+    </groups>
+    <test name="Orion1CLS_FireFox" duration-ms="186938" started-at="2016-05-16T06:20:54Z" finished-at="2016-05-16T06:24:01Z">
+      <class name="orionLeadFlow.OrionLeadFlow">
+        <test-method status="PASS" signature="BeforeNavigation(java.lang.String)[pri:0, instance:orionLeadFlow.OrionLeadFlow@1fd17e3]" name="BeforeNavigation" is-config="true" duration-ms="22305" started-at="2016-05-16T11:50:54Z" finished-at="2016-05-16T11:51:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeNavigation -->
+        <test-method status="PASS" signature="BrowseToAddNewLeadPage(java.lang.reflect.Method)[pri:0, instance:orionLeadFlow.OrionLeadFlow@1fd17e3]" name="BrowseToAddNewLeadPage" duration-ms="17125" started-at="2016-05-16T11:51:17Z" finished-at="2016-05-16T11:51:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void orionLeadFlow.OrionLeadFlow.BrowseToAddNewLeadPage(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowseToAddNewLeadPage -->
+        <test-method status="PASS" signature="CreateLead(java.lang.reflect.Method)[pri:0, instance:orionLeadFlow.OrionLeadFlow@1fd17e3]" name="CreateLead" duration-ms="22525" started-at="2016-05-16T11:51:34Z" depends-on-methods="orionLeadFlow.OrionLeadFlow.BrowseToAddNewLeadPage" finished-at="2016-05-16T11:51:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void orionLeadFlow.OrionLeadFlow.CreateLead(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateLead -->
+        <test-method status="PASS" signature="VerifyLeadInAdmisssionManager(java.lang.reflect.Method)[pri:0, instance:orionLeadFlow.OrionLeadFlow@1fd17e3]" name="VerifyLeadInAdmisssionManager" duration-ms="17606" started-at="2016-05-16T11:51:56Z" depends-on-methods="orionLeadFlow.OrionLeadFlow.CreateLead" finished-at="2016-05-16T11:52:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void orionLeadFlow.OrionLeadFlow.VerifyLeadInAdmisssionManager(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLeadInAdmisssionManager -->
+        <test-method status="PASS" signature="SaveContactInfo(java.lang.reflect.Method)[pri:0, instance:orionLeadFlow.OrionLeadFlow@1fd17e3]" name="SaveContactInfo" duration-ms="18277" started-at="2016-05-16T11:52:14Z" depends-on-methods="orionLeadFlow.OrionLeadFlow.VerifyLeadInAdmisssionManager" finished-at="2016-05-16T11:52:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void orionLeadFlow.OrionLeadFlow.SaveContactInfo(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SaveContactInfo -->
+        <test-method status="PASS" signature="ProgresstoContacted(java.lang.reflect.Method)[pri:0, instance:orionLeadFlow.OrionLeadFlow@1fd17e3]" name="ProgresstoContacted" duration-ms="24946" started-at="2016-05-16T11:52:32Z" depends-on-methods="orionLeadFlow.OrionLeadFlow.SaveContactInfo" finished-at="2016-05-16T11:52:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void orionLeadFlow.OrionLeadFlow.ProgresstoContacted(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProgresstoContacted -->
+        <test-method status="PASS" signature="ProgressLeadtoIntScheduled(java.lang.reflect.Method)[pri:0, instance:orionLeadFlow.OrionLeadFlow@1fd17e3]" name="ProgressLeadtoIntScheduled" duration-ms="15264" started-at="2016-05-16T11:52:57Z" depends-on-methods="orionLeadFlow.OrionLeadFlow.ProgresstoContacted" finished-at="2016-05-16T11:53:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void orionLeadFlow.OrionLeadFlow.ProgressLeadtoIntScheduled(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProgressLeadtoIntScheduled -->
+        <test-method status="PASS" signature="ProgressLeadtoIntComplete(java.lang.reflect.Method)[pri:0, instance:orionLeadFlow.OrionLeadFlow@1fd17e3]" name="ProgressLeadtoIntComplete" duration-ms="15604" started-at="2016-05-16T11:53:12Z" depends-on-methods="orionLeadFlow.OrionLeadFlow.ProgressLeadtoIntScheduled" finished-at="2016-05-16T11:53:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void orionLeadFlow.OrionLeadFlow.ProgressLeadtoIntComplete(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProgressLeadtoIntComplete -->
+        <test-method status="PASS" signature="ProgressLeadtoExamPending(java.lang.reflect.Method)[pri:0, instance:orionLeadFlow.OrionLeadFlow@1fd17e3]" name="ProgressLeadtoExamPending" duration-ms="1455" started-at="2016-05-16T11:53:28Z" depends-on-methods="orionLeadFlow.OrionLeadFlow.ProgressLeadtoIntComplete" finished-at="2016-05-16T11:53:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void orionLeadFlow.OrionLeadFlow.ProgressLeadtoExamPending(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProgressLeadtoExamPending -->
+        <test-method status="PASS" signature="ProgressLeadtoExamReceived(java.lang.reflect.Method)[pri:0, instance:orionLeadFlow.OrionLeadFlow@1fd17e3]" name="ProgressLeadtoExamReceived" duration-ms="1239" started-at="2016-05-16T11:53:29Z" depends-on-methods="orionLeadFlow.OrionLeadFlow.ProgressLeadtoExamPending" finished-at="2016-05-16T11:53:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void orionLeadFlow.OrionLeadFlow.ProgressLeadtoExamReceived(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProgressLeadtoExamReceived -->
+        <test-method status="PASS" signature="ProgressLeadPendingEnrollment(java.lang.reflect.Method)[pri:0, instance:orionLeadFlow.OrionLeadFlow@1fd17e3]" name="ProgressLeadPendingEnrollment" duration-ms="28902" started-at="2016-05-16T11:53:31Z" depends-on-methods="orionLeadFlow.OrionLeadFlow.ProgressLeadtoExamReceived" finished-at="2016-05-16T11:54:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void orionLeadFlow.OrionLeadFlow.ProgressLeadPendingEnrollment(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProgressLeadPendingEnrollment -->
+        <test-method status="PASS" signature="AfterNavigation()[pri:0, instance:orionLeadFlow.OrionLeadFlow@1fd17e3]" name="AfterNavigation" is-config="true" duration-ms="1658" started-at="2016-05-16T11:54:00Z" finished-at="2016-05-16T11:54:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterNavigation -->
+      </class> <!-- orionLeadFlow.OrionLeadFlow -->
+      <class name="environment.EnvironmentVariables">
+        <test-method status="PASS" signature="BeforeSuite_Orion1(java.lang.String, java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:environment.EnvironmentVariables@13c0b17]" name="BeforeSuite_Orion1" is-config="true" duration-ms="0" started-at="2016-05-16T11:50:54Z" finished-at="2016-05-16T11:50:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[localhost]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4444]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@1cdc6d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeSuite_Orion1 -->
+      </class> <!-- environment.EnvironmentVariables -->
+    </test> <!-- Orion1CLS_FireFox -->
+  </suite> <!-- Orion1CLS -->
+</testng-results>
